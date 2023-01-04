@@ -12,5 +12,7 @@ Every day have 4 sections: Materials, slides, quiz, homework. They are being con
 However, for homework section, you have to create your own jsx function. There are no variables to control the section.
 
 ### Comments
-/components/ is for the implementation of sections. /tools/ is for the /tools route, and styles are for CSS. 
-If you notice in the public, I also added some HTML files instead of making a React component because they are static and serve as additional references only.
+1. /components/ is for the implementation of sections. /tools/ is for the /tools route, and styles are for CSS.  
+2. If you notice in the public, I also added some HTML files instead of making a React component because they are static and serve as additional references only.  
+3. This website is not responsive.
+4. For this website I hosted it in surge.sh. The domain for this web is baw-eng.surge.sh
