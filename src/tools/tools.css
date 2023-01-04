@@ -1,0 +1,13 @@
+.tools h3 {
+    margin-top: 1rem;
+}
+
+.tools a {
+    color: inherit;
+}
+
+.tools img {
+    border-radius: 10px;
+    width: 70%;
+    margin-top: 0.5rem;
+}

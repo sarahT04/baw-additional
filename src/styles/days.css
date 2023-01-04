@@ -1,0 +1,41 @@
+.options {
+    max-width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.options .days {
+    margin-left: 0.5rem;
+}
+
+.wrapper .children {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.quiz {
+    margin-bottom: 3rem;
+}
+
+.quiz button, .button {
+    border: 1px solid lightsalmon;
+    border-radius: 0.5rem;
+    transition: background-color 300ms ease-out, color 300ms ease-out;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: transparent;
+    margin-top: 1rem;
+}
+
+.quiz button:hover, .button:hover {
+    background-color: lightsalmon;
+    color: white;
+}
+
+.materials a, .footer a {
+    text-decoration: none;
+}

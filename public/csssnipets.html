@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            text-align: center;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        .padding {
+            border: 1px solid red;
+            background-color: lightsalmon;
+            padding: 10px;
+        }
+
+        button {
+            border: 10px solid red;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .button-padding {
+            padding: 10px;
+        }
+
+        .button-margin {
+            margin: 10px;
+        }
+
+        .margin {
+            border: 1px solid black;
+            background-color: aliceblue;
+            margin: 10px;
+        }
+
+        .wrapper {
+            background-color: black;
+        }
+
+        .border {
+            border: 1px solid black;
+        }
+    </style>
+    <title>CSS & HTML Snippets</title>
+</head>
+
+<body>
+    <div id="size">
+        <div class="right" style="float: right; width: 48%;">
+            <h1>CSS Snippets</h1>
+            <h3>Size</h3>
+            <div style="width: 200px; height: 200px; background-color: lightgrey; text-align: center;">
+                <p>I'm 200px long and
+                    200px tall!</p>
+            </div>
+            <div style="width: 50%; height: 2rem; background-color: lightgrey; text-align: center;">
+                <p>I'm 50% wide and 2rem
+                    tall!</p>
+            </div>
+            <hr />
+            <h3>Colors</h3>
+            <div style="width: 50%; height: 3rem; background-color: pink; text-align: center; color: red">
+                <p>I'm a div with a background-color <br />of pink and color orangered!</p>
+            </div>
+            <br />
+            <button style="color: orangered; background-color: bisque; padding: 10px; border: 1px solid black">I'm a
+                button with background-color bisque and orangered color.</button>
+            <hr />
+            <h3>Border</h3>
+            <p style="border-style: solid">
+                I'm a p element whose p have solid border
+            </p>
+            <p style="border-style: dashed">
+                I'm a p element whose p dashed border
+            </p>
+            <p style="border-style: inset">
+                I'm a p element whose p inset border
+            </p>
+            <p style="border-style: outset">
+                I'm a p element whose p outset border
+            </p>
+            <hr />
+            <h3>Margin</h3>
+            <div class="wrapper">
+                <div class="margin">
+                    <p>I'm a P element with 10px margin.</p>
+                </div>
+                <button type='button' class="button-margin">I'm a 10px margin button with 10px border</button>
+            </div>
+            <h3>Padding</h3>
+            <div class="wrapper">
+                <div class="padding">
+                    <p>I'm a P element with 10px padding.</p>
+                </div>
+                <br />
+                <button type='button' class="button-padding">I'm a 10px padding button with 10px border</button>
+            </div>
+        </div>
+        <div class="left" style="float: left; width: 48%;">
+            <h1>HTML Tags</h1>
+            <h3>Headings</h3>
+            <hr />
+            <h1>This is heading 1</h1>
+            <h2>This is heading 2</h2>
+            <h3>This is heading 3</h3>
+            <h4>This is heading 4</h4>
+            <h5>This is heading 5</h5>
+            <h6>This is heading 6</h6>
+            <hr />
+            <h3>Typography</h3>
+            <hr />
+            <p><b>This text is bold</b></p>
+            <p><i>This text is italic</i></p>
+            <p><u>I am underlining everything</u></p>
+            <p><small>This is some smaller text.</small></p>
+            <p>Do not forget to buy <mark>milk</mark> today.</p>
+            <p>My favorite color is <del>blue</del> red.</p>
+            <p>This is <sub>subscripted</sub> text.</p>
+            <p>This is <sup>superscripted</sup> text.</p>
+            <hr />
+            <h3>Tables</h3>
+            <hr />
+            <table>
+                <tr>
+                    <th>Company</th>
+                    <th>Contact</th>
+                    <th>Country</th>
+                </tr>
+                <tr>
+                    <td>Alfreds Futterkiste</td>
+                    <td>Maria Anders</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>Centro comercial Moctezuma</td>
+                    <td>Francisco Chang</td>
+                    <td>Mexico</td>
+                </tr>
+            </table>
+            <hr />
+            <h3>Lists</h3>
+            <hr />
+            <ol>
+                <li>Ordered list</li>
+                <li>Starts from one</li>
+            </ol>
+            <ul>
+                <li>Unordered list</li>
+                <li>Doesn't have a start point</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
